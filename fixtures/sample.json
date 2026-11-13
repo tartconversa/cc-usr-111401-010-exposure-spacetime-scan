@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "nodes": [
+      "a",
+      "b"
+    ]
+  },
+  "collections": {
+    "cells": [
+      {
+        "id": "a0",
+        "revision": 1,
+        "node": "a",
+        "day": 0,
+        "exposure": 100,
+        "events": 2
+      },
+      {
+        "id": "b0",
+        "revision": 1,
+        "node": "b",
+        "day": 0,
+        "exposure": 50,
+        "events": 1
+      }
+    ],
+    "edges": [
+      {
+        "id": "ab",
+        "revision": 1,
+        "from": "a",
+        "to": "b"
+      }
+    ]
+  }
+}
